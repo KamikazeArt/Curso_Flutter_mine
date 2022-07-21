@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:math';
 void main() {
-print('Ejercicio 2 -> FOR');
+print(' Ejercicio 2 -> FOR');
 print('--------------------------');
 
 stdout.writeln('INSERTA UN NUMERO');
