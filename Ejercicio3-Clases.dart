@@ -12,6 +12,8 @@ se retira una cantidad a la cuenta, si restando la cantidad actual a la que nos 
 la cantidad de la cuenta pasa a ser 0.
 */
 
+import 'dart:web_gl';
+
 class Cuenta {
 
 Cuenta({
@@ -20,20 +22,22 @@ Cuenta({
 });
 
 String titular;
-double cantidad;
+double? cantidad;
 
 String get info{
-  return 'Cuenta de $titular saldo $cantidad'
+  return 'Cuenta de $titular saldo $cantidad';
 }
 
 void ingresar(double cantidad){
+   final bool active = true;
+if(active)
   if (cantidad < 0) {
-    return;
+       return;
   }
 }
 
 void ingresar(double cantidad){
-  if (nueva cantidad >0 )
+  if (cantidad >0 )
   return (double cantidad =0) ;
 }
 }
